@@ -1,5 +1,4 @@
-python run_mim.py \
-    --per_device_train_batch_size 32 \
+python3 run_mim.py \
     --model_type vit \
     --output_dir ./outputs/ \
     --remove_unused_columns False \
@@ -9,8 +8,8 @@ python run_mim.py \
     --learning_rate 2e-5 \
     --weight_decay 0.05 \
     --num_train_epochs 100 \
-    --per_device_train_batch_size 8 \
-    --per_device_eval_batch_size 8 \
+    --per_device_train_batch_size 32 \
+    --per_device_eval_batch_size 32 \
     --logging_strategy steps \
     --logging_steps 10 \
     --eval_strategy epoch \
