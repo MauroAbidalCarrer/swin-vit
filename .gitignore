@@ -1,3 +1,5 @@
+*.swp
+
 swinvit_cfg.json
 outputs/*
 .vscode/*
