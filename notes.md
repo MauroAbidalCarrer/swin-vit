@@ -1,0 +1,4 @@
+- Use swinViT
+- pretrain on custom dataset
+- put in exisiting raidium challenge repo (wandb, chkpt, ect..)
+- access hidden activations
