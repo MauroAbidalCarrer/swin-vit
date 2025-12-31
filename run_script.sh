@@ -1,6 +1,7 @@
 python run_mim.py \
     --model_type swin \
     --output_dir ./outputs/ \
+    --config_name_or_path swinvit_cfg.json \
     --remove_unused_columns False \
     --label_names bool_masked_pos \
     --do_train \
